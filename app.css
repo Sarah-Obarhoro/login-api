@@ -1,0 +1,36 @@
+body{
+    background: url(./images/background-img.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+}
+#loginsection{
+    background-color: rgba(115, 147, 179, 0.8);
+    height: 300px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 7px;
+    padding: 50px;
+}
+#loginsection input{
+    display: block;
+    margin-bottom: 20px;
+    border: 0px solid;
+    height: 30px;
+    width: 280px;
+    color: #ccc;
+    padding-left: 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+#loginsection input:focus{
+    outline: none;
+}
+#loginsection #submit{
+    padding: 10px 30px;
+    font-size: 0.9rem;
+    color: #000;
+    border: 0px solid;
+    border-radius: 3px;
+    margin-top: 100px;
+}
